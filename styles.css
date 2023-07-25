@@ -28,6 +28,7 @@ header {
     border-radius: 75%;
     display: inline-flex;
     margin-right: auto;
+    border: solid white;
 }
 
 ul {
@@ -43,5 +44,42 @@ ul {
     margin-left: auto;
 }
 
+.top {
+    background-color: brown;
+    box-shadow: 0 0 5px red;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 8px;
+    border: solid white;
+}
 
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    border: solid white;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: lightsalmon;
+    color: black;
+    box-shadow: 0 0 5px red;
+    border: solid 8px maroon;
+    font-weight: 800;
+
+}
+
+.mermaid {
+    max-width: 250px;
+    max-height: auto;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 75%;
+    display: inline-flex;
+    margin-left: auto;
+    border: solid white;
+}
 
