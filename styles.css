@@ -1,6 +1,7 @@
 
 * {
     margin: 8px;
+    padding: 8px;
 }
 
 body {
@@ -49,7 +50,7 @@ ul {
     box-shadow: 0 0 5px red;
     color: white;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     padding: 8px;
@@ -83,3 +84,101 @@ button {
     border: solid white;
 }
 
+.info {
+    background-color: brown;
+    box-shadow: 0 0 5px red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 8px;
+    border: solid white;
+    flex: 1;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 8px;
+    padding: 8px;
+    border: solid white;
+    flex: 1 1 auto;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+
+
+.mug {
+    width: 100%;
+    max-width: 350px;
+    max-height: 450px;
+    margin: auto;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 75%;
+    display: inline-flex;
+    margin-left: auto;
+    border: solid white;
+    background-color: whitesmoke;
+}
+
+.portrait {
+    width: 100%;
+    max-width: 350px;
+    max-height: 450px;
+    margin: auto;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 75%;
+    display: inline-flex;
+    margin-left: auto;
+    border: solid white;
+}
+
+.roots {
+    width: 100%;
+    max-width: 350px;
+    max-height: 450px;
+    margin: auto;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 75%;
+    display: inline-flex;
+    margin-left: auto;
+    border: solid white;
+}
+
+.Phoenix {
+    width: 100%;
+    max-width: 350px;
+    max-height: 450px;
+    margin: auto;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 75%;
+    display: inline-flex;
+    margin-left: auto;
+    border: solid white;
+}
+
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    padding: 8px;
+    flex: 1 1 auto;
+    border: solid white;
+  
+
+}
