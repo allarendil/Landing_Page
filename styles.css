@@ -1,101 +1,116 @@
 
-* {
-    margin: 8px;
-    padding: 8px;
-}
 
 body {
-    margin: 0;
+    margin: 25px;
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 header {
-    background-color: brown;
-    box-shadow: 0 0 5px red;
-    color: white;
+    background-color: #2F1707;
+    color: #F9F4F2;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 8px;
-    border: solid white;
+    padding: 2px;
+    margin-bottom: auto;
+    max-height: 150px;
 }
 
+
 .logo {
-    max-width: 50px;
+    max-width: 100px;
     max-height: auto;
-    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 75%;
+    border-radius: 25%;
     display: inline-flex;
     margin-right: auto;
-    border: solid white;
+    margin: 150px;
+    padding: 15px;
 }
 
 ul {
     display: inline-flex;
-    padding: 8px;
+    padding: 20px;
+    margin: 20px;
     list-style-type: none;
-    border: solid white;
+    align-items: center;
     flex: 1 1 auto;
+    font-size: large;
 }
 
 .links {
-    display: inline-flex;
+    display: flex;
     margin-left: auto;
+    margin-right: 150px;
+}
+
+li {
+    padding: 20px;
 }
 
 .top {
-    background-color: brown;
-    box-shadow: 0 0 5px red;
-    color: white;
+    background-color: #2F1707;
+    color: #F9F4F2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 8px;
-    border: solid white;
+    padding: 20px;
 }
 
 .paragraph {
     display: flex;
     flex-direction: column;
-    border: solid white;
     max-width: 500px;
     flex-wrap: wrap;
+    margin: 150px;
+    font-size: 18px;
+}
+
+.paragraph h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 button {
-    background-color: lightsalmon;
-    color: black;
-    box-shadow: 0 0 5px red;
-    border: solid 8px maroon;
+    background-color: #EA810A;
+    color: white;
     font-weight: 800;
+    font-size: 22px;
+    max-width: fit-content;
+    max-height: max-content;
+    padding: 8px;
+    border-radius: 12%;
 
 }
 
 .mermaid {
-    max-width: 250px;
+    max-width: 400px;
     max-height: auto;
-    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 75%;
+    border-radius: 25%;
     display: inline-flex;
     margin-left: auto;
-    border: solid white;
+    padding: 100px;
 }
 
 .info {
-    background-color: brown;
+    background-color: #F9F4F2;
     box-shadow: 0 0 5px red;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
     padding: 8px;
-    border: solid white;
     flex: 1;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .images {
@@ -104,8 +119,7 @@ button {
     align-items: center;
     flex-wrap: nowrap;
     margin: 8px;
-    padding: 8px;
-    border: solid white;
+    padding: 10px;
     flex: 1 1 auto;
     font-size: 35px;
     font-weight: bold;
@@ -120,10 +134,10 @@ button {
     max-height: 450px;
     margin: auto;
     box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 75%;
+    border-radius: 25%;
     display: inline-flex;
     margin-left: auto;
-    border: solid white;
+    border: solid #EA810A;
     background-color: whitesmoke;
 }
 
@@ -133,10 +147,10 @@ button {
     max-height: 450px;
     margin: auto;
     box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 75%;
+    border-radius: 25%;
     display: inline-flex;
     margin-left: auto;
-    border: solid white;
+    border: solid #EA810A;
 }
 
 .roots {
@@ -145,10 +159,10 @@ button {
     max-height: 450px;
     margin: auto;
     box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 75%;
+    border-radius: 25%;
     display: inline-flex;
     margin-left: auto;
-    border: solid white;
+    border: solid #EA810A;
 }
 
 .Phoenix {
@@ -157,10 +171,10 @@ button {
     max-height: 450px;
     margin: auto;
     box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 75%;
+    border-radius: 25%;
     display: inline-flex;
     margin-left: auto;
-    border: solid white;
+    border: solid #EA810A;
 }
 
 
@@ -178,19 +192,16 @@ button {
     margin: 10px;
     padding: 8px;
     flex: 1 1 auto;
-    border: solid white;
 }
 
 .quote {
-    background-color: brown;
-    box-shadow: 0 0 5px red;
-    color: white;
+    background-color: #DFBFB9;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     padding: 8px;
-    border: solid white;
     min-height: 450px;
     min-width: auto;
 }
@@ -208,49 +219,48 @@ button {
 }
 
 .action {
-    background-color: brown;
-    box-shadow: 0 0 5px red;
+    background-color: #F9F4F2;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     padding: 8px;
-    border: solid white;
     min-height: 450px;
     min-width: auto;
 }
 
 .banner {
-    background-color: brown;
+    background-color: #EA810A;
     box-shadow: 0 0 5px red;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 8px;
-    border: solid white;
-    min-height: 450px;
-    min-width: auto;
+    padding: 20px;
+    min-width: 650px;
+    min-height: auto;
 }
 
 .banner-text {
     display: flex;
     flex-direction: column;
-    border: solid white;
+    align-content: center;
+    justify-content: center;
     max-width: 500px;
     flex-wrap: wrap;
+    padding: 20px;
+    margin: -10;
 }
 
 .footer {
-    background-color: brown;
-    box-shadow: 0 0 5px red;
-    color: white;
+    background-color: #2F1707;
+    color: #F9F4F2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 8px;
-    border: solid white;
+    padding: 15px;
+
 }
